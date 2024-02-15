@@ -37,7 +37,7 @@ body {
 
 .board h1 {
   color: #eee;
-  margin-bottom: 16px;
+  margin-bottom: 2rem;
 }
 
 .board button {
@@ -88,10 +88,7 @@ body {
 
 .winner {
   position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
+  inset: 0;
   display: grid;
   place-items: center;
   background-color: rgba(0, 0, 0, 0.7);
